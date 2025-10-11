@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Examples</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Button Examples</h1>
+        
+        <section class="section">
+            <h2>Standard Buttons</h2>
+            <div class="button-group">
+                <button class="btn btn-primary">Primary</button>
+                <button class="btn btn-secondary">Secondary</button>
+                <button class="btn btn-success">Success</button>
+                <button class="btn btn-danger">Danger</button>
+                <button class="btn btn-warning">Warning</button>
+                <button class="btn btn-info">Info</button>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2>Small Buttons</h2>
+            <div class="button-group">
+                <button class="btn btn-primary btn-sm">Small Primary</button>
+                <button class="btn btn-secondary btn-sm">Small Secondary</button>
+                <button class="btn btn-success btn-sm">Small Success</button>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2>Button Actions</h2>
+            <div class="button-group">
+                <button class="btn btn-primary" onclick="showToast('Primary clicked!', 'info')">
+                    Show Toast
+                </button>
+                <button class="btn btn-success" onclick="alert('Success!')">
+                    Show Alert
+                </button>
+                <button class="btn btn-danger" onclick="console.log('Danger!')">
+                    Console Log
+                </button>
+            </div>
+        </section>
+    </div>
+    
+    <div id="toast-container"></div>
+    <script src="components.js"></script>
+</body>
+</html>
