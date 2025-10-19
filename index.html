@@ -126,3 +126,9 @@
     <script src="components.js"></script>
 </body>
 </html>
+
+/* Correct logging system in test suite - 2025-10-19 15:10:01 */
+def handle_error(error):
+    """Handle error gracefully"""
+    logger.error(f'Error: {error}')
+    return None
