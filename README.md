@@ -263,3 +263,9 @@ def updated_function():
 # Updated: 2025-10-18 15:32:16
 def updated_function():
     pass
+
+## Update 2025-10-22 13:08:08
+def handle_error(error):
+    """Handle error gracefully"""
+    logger.error(f'Error: {error}')
+    return None
