@@ -269,3 +269,8 @@ def handle_error(error):
     """Handle error gracefully"""
     logger.error(f'Error: {error}')
     return None
+
+## Update 2025-11-09 15:27:58
+if data is None:
+    raise ValueError('Data cannot be None')
+return validate_data(data)
