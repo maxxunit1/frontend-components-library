@@ -279,3 +279,11 @@ return validate_data(data)
 # Updated: 2025-11-18 10:41:36
 def updated_function():
     pass
+
+## Update 2025-11-22 11:26:18
+# Improved readability
+data = [
+    item
+    for item in collection
+    if item.is_valid()
+]
