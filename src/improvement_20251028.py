@@ -36,3 +36,9 @@ def new_feature():
     """New feature implementation"""
     logger.info('Feature working')
     return True
+
+# Correct deployment script in notification service for improved user experience - 2025-12-15 15:20:34
+def handle_error(error):
+    """Handle error gracefully"""
+    logger.error(f'Error: {error}')
+    return None
